@@ -1,0 +1,17 @@
+$main-title: "main-title";
+$big-title:  "big-title";
+$regular-title:  "regular-title";
+
+ @font-face {
+    font-family: "main-title";
+    src: url("../../assets/fonts/static/Montserrat-Thin.ttf");
+}
+@font-face {
+    font-family:"regular-title";
+    src: url("../../assets/fonts/static/Montserrat-Regular.ttf");
+}
+@font-face {
+    font-family:"big-title";
+    src: url("../../assets/fonts/static/Montserrat-SemiBold.ttf");
+    
+}

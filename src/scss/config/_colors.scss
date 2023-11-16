@@ -1,0 +1,54 @@
+:root {
+
+//color elogios son
+  --primary-color: #F22929;
+  --secondary-color:  #FF6D6C;
+  --base-color: #FFABAB;
+  --cta-color: #414143;
+  //Color elogios formacion
+  --primary-color-f: #05C7F2;
+  --secondary-color-f: #4DC6EF;
+  --base-color-f: #99DEF6;
+  --cta-color-f: #565A5D;
+  //color elogios laboral
+  --primary-color-l: #F25922;
+  --secondary-color-l: #FF9763;
+  --base-color-l: #FFCEA6;
+  --cta-color-l: #7F8386;
+//color elogios salud mental
+--primary-color-s: #32A643;
+--secondary-color-s: #6CC07F;
+--base-color-s: #ABDBB5;
+--cta-color-s: #D2D4D3;
+//Complementarios
+  --dark-color: #343434;
+  --dark-color-2: #666;
+  --background-color: #fefe;
+  --text-color: #eee;
+}
+
+$primary-color: var(--primary-color);
+$secondary-color: var(--secondary-color);
+$base-color: var(--base-color);
+$cta-color: var(--cta-color);
+
+$primary-color-f: var(--primary-color-f);
+$secondary-color-f: var(--secondary-color-f);
+$base-color-f: var(--base-color-f);
+$cta-color-f: var(--cta-color-f);
+
+$primary-colorl: var(--primary-color-l);
+$secondary-color-l: var(--secondary-color-l);
+$base-color-l: var(--base-color-l);
+$cta-color-l: var(--cta-color-l);
+
+$primary-color-s: var(--primary-color-s);
+$secondary-color-s: var(--secondary-color-s);
+$base-color-s: var(--base-color-s);
+$cta-color-s: var(--cta-color-s);
+
+
+$background-color: var(--background-color);
+$dark-color: var(--dark-color);
+$dark-color-2: var(--dark-color-2);
+$text-color: var(--text-color);
