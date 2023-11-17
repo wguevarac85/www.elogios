@@ -12,7 +12,7 @@
 <!-- The name of the Web application that the page represents -->
 <meta name="application-name" content="Sample Application Name" />
 <!-- Name of the author of the document -->
-<meta name="author" content="gekutes" />
+<meta name="author" content="wg.softwareCreativo" />
 <!-- Specifies the software package used to generate the document -->
 <meta name="generator" content="SomeWebPageGenerator 4.0" />
 <!-- Enable users to add your web application or webpage link to the Home screen. Replace icon.png with your icon file path -->
