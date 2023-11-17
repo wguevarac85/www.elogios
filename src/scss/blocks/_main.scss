@@ -1,6 +1,9 @@
 .contenido__container{
     grid-column: 1 /13;
     grid-row: 2;
-    background-color: burlywood;
-    height: 100vh;
+    //background-color: burlywood;
+    height: 700px;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+	grid-template-rows: auto;
 }

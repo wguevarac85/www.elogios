@@ -1,0 +1,90 @@
+.programas{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.card__programas {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px;
+    max-width: 285px;
+    height: 350px;
+    overflow: hidden;
+    box-shadow: 1px 11px 52px -16px rgba(0,0,0,0.87);
+    //z-index: 6;
+  }
+  
+  .card__programas img {
+    display: flex;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin-right: 2px;
+    border: 8px groove $primary-color;
+   
+    
+    
+  }
+  .title_principal{
+    display: flex;
+    justify-content: center;
+    font-size: 1.9rem;
+    font-family: $big-title;
+    color: $dark-color;
+  }
+  .card__img{
+    padding: auto;
+  }
+  .programa__title{
+    font-size: 1.2rem;
+    font-family: $big-title;
+    color: $dark-color;
+    
+  }
+  .title{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  .programa__parrafo{
+    font-size: .8rem;
+    font-family: $big-title;
+    color: $text-parrafo;
+  }
+  .button{
+  position:relative;
+  bottom: 5px;
+  left: 0;
+  right: 0;
+  padding: 10px;
+  text-align: center;
+  background-color: #377caf;
+  color: $text-color;
+  border-radius: 15px;
+  cursor: pointer;
+ 
+  }
+  
+  
+  @media (max-width: 600px) {
+    .card__programas {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .card__programas {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      //margin-bottom: 20px;
+      //margin-right: 0;
+    }
+    .programas{
+      display: flex;
+      flex-direction: column;
+    }
+  }
+  

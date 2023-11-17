@@ -1,7 +1,5 @@
 <div class="slider__container">
     <div class="slider" id="slider">
-
-
         <div class="item slider__section">
             <div class="content">
                 <div class="name">LUNDEV</div>

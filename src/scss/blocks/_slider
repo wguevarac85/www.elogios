@@ -1,7 +1,12 @@
 .slider__container{
-    position: absolute;
+    grid-column: 1 /13;
+    grid-row: 1;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     left: 50%;
-    top: 50%;
+    top:50%;
     transform: translate(-50%, -50%);
     width: 1000px;
     height: 600px;

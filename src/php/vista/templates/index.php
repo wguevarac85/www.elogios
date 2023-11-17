@@ -8,9 +8,16 @@
 
 <body>
 
-    <header class="header__container">1</header>
+    <header class="header__container">
+    <?php include "../pages/menu.php"?>
+    </header>
     <main class="contenido__container">
-        <?php include "../pages/slider.php"?>
+        <section class="carrusel">
+        <?php include "../pages/slider-2.php"?>
+        </section>
+        <section class="card__container">
+        <?php include "../pages/card.php"?>
+        </section>
     </main>
     <footer class="footer__container">3<?php include "../includes/copyright.php"?></footer>
 
