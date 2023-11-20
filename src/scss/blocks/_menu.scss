@@ -25,6 +25,7 @@
     height: 100%;
     transition: transform .5s;
     display: flex;
+    color: black;
 }
 
 .menu__item{
@@ -52,6 +53,7 @@
 
 .menu__link:hover{
     background-color: $secondary-color;
+    //color: $dark-color-2;
 }
 
 
@@ -71,15 +73,17 @@
     bottom: 0;
     width: max-content;
     transform: translateY(100%);
-    background-color:$base-color;
+    background-color:$text-color;
 }
 
 .menu__link--inside{
     padding: 30px 100px 30px 20px;
+    color: $dark-color;
 }
 
 .menu__link--inside:hover{
     background-color: $secondary-color;
+    color: $text-color;
 }
 
 .menu__hamburguer{

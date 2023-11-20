@@ -3,44 +3,44 @@
   <h2 class="title_principal">Nuestros Programas</h2>
 
 <div class="programas">
-<div class="card__programas">
-  <img class="card__img"src="./assets/logo/logov.png" alt="Imagen circular">
+<div class="card__programas card__programas--e">
+  <img class="card__img card__img-1"src="./assets/logo/logo-2.svg" alt="Imagen circular">
   <div class="title">
-    <h2 class="programa__title">Salud Laboral</h2>
+    <h2 class="programa__title">Salud Mental</h2>
     <p class="programa__parrafo">
-							Somos una <strong>IPS</strong> lider en la prestación de servicios en el area de seguridad y salud en el trabajo
+    habilitación de pacientes con discapacidad intelectual  y trastornos mentales
   </div>
-  <button class = "button"type="button">Conoce Mas</button>
+  <a  href="#" class = "modal1">Conoce Mas</a>
 </div>
 
 <div class="card__programas">
-  <img class="card__img"src="./assets/logo/logov.png" alt="Imagen circular">
+  <img class="card__img card__img-2"src="./assets/logo/logo-2.svg" alt="Imagen circular">
   <div class="title">
-    <h2 class="programa__title">Salud Laboral</h2>
+    <h2 class="programa__title">Formacion</h2>
     <p class="programa__parrafo">
-							Somos una <strong>IPS</strong> lider en la prestación de servicios en el area de seguridad y salud en el trabajo
+							Aprendizaje encaminado en el desarrollo humano y el trabajo
   </div>
-  <button class = "button"type="button">Conoce Mas</button>
+  <a  href="#" class = "modal1">Conoce Mas</a>
 </div>
 
 <div class="card__programas">
-  <img class="card__img"src="./assets/logo/logov.png" alt="Imagen circular">
+  <img class="card__img card__img-3"src="./assets/logo/logo-2.svg" alt="Imagen circular">
   <div class="title">
     <h2 class="programa__title">Salud Laboral</h2>
     <p class="programa__parrafo">
-							Somos una <strong>IPS</strong> lider en la prestación de servicios en el area de seguridad y salud en el trabajo
+							Prestación de servicios en el area de seguridad y salud en el trabajo
   </div>
-  <button class = "button"type="button">Conoce Mas</button>
+  <a  href="#" class = "modal1">Conoce Mas</a>
 </div>
 
 <div class="card__programas">
-  <img class="card__img"src="./assets/logo/logov.png" alt="Imagen circular">
+  <img class="card__img card__img-4"src="./assets/logo/logo-2.svg" alt="Imagen circular">
   <div class="title">
-    <h2 class="programa__title">Salud Laboral</h2>
+    <h2 class="programa__title">Laboratorio Clinico</h2>
     <p class="programa__parrafo">
-							Somos una <strong>IPS</strong> lider en la prestación de servicios en el area de seguridad y salud en el trabajo
+    Somos expertos y estamos habilitados para realizar diagnosticos clinicos
   </div>
-  <button class = "button"type="button">Conoce Mas</button>
+  <a  href="#" class = "modal1">Conoce Mas</a>
 </div>
 
 </div>

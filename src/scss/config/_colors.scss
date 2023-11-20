@@ -18,7 +18,7 @@
 //color elogios salud mental
 --primary-color-s: #32A643;
 --secondary-color-s: #6CC07F;
---base-color-s: #ABDBB5;
+--base-color-s:  #0ca994;
 --cta-color-s: #D2D4D3;
 //Complementarios
   --dark-color: #343434;
@@ -26,6 +26,7 @@
   --background-color: #fefe;
   --text-color: #eee;
   --text-parrafo:#676565c7;
+  --dark-color-3:#5f5d5d81;
 }
 
 $primary-color: var(--primary-color);
@@ -38,7 +39,7 @@ $secondary-color-f: var(--secondary-color-f);
 $base-color-f: var(--base-color-f);
 $cta-color-f: var(--cta-color-f);
 
-$primary-colorl: var(--primary-color-l);
+$primary-color-l: var(--primary-color-l);
 $secondary-color-l: var(--secondary-color-l);
 $base-color-l: var(--base-color-l);
 $cta-color-l: var(--cta-color-l);
@@ -50,7 +51,9 @@ $cta-color-s: var(--cta-color-s);
 
 
 $background-color: var(--background-color);
+$background-color-3: var(--background-color-3);
 $dark-color: var(--dark-color);
 $dark-color-2: var(--dark-color-2);
+$dark-color-3: var(--dark-color-3);
 $text-color: var(--text-color);
 $text-parrafo: var(--text-parrafo);

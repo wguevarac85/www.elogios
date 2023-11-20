@@ -40,11 +40,12 @@
     width: 30px;
     height: 30px;
     border-radius: 50%;
-    border: 1px solid $dark-color;
+    border: 1px solid transparent;
     transition: 0.5s;
+    background-color: transparent;
 }
 .buttons button:hover{
-    background-color: $cta-color-f;
+    background-color: $background-color;
 }
 
 @include mobile{

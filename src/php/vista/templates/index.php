@@ -18,8 +18,11 @@
         <section class="card__container">
         <?php include "../pages/card.php"?>
         </section>
+        <section class="nosotros__container">
+        <?php include "../pages/nosotros.php"?>
+        </section>
     </main>
-    <footer class="footer__container">3<?php include "../includes/copyright.php"?></footer>
+    <!-- <footer class="footer__container">3<?php include "../includes/copyright.php"?></footer> -->
 
     <?php include "../includes/scripts.php"?>
 
