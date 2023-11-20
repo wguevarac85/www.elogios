@@ -88,6 +88,11 @@
   cursor: pointer;
  
   }
+  .modal1:hover{
+    background-color: #ccc;
+    font-size: 1.2rem;
+    color: $dark-color;
+  }
   
   
   @media (max-width: 600px) {

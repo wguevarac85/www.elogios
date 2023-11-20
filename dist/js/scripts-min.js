@@ -41,11 +41,14 @@ menu.addEventListener('click', function () {
 var button = document.getElementById('button-1');
 var modal = document.getElementById('modal');
 var button2 = document.getElementById('button-2');
-var modal2 = document.getElementById('modal2');
+// const modal2 = document.getElementById('modal2');
+
 var button3 = document.getElementById('button-3');
-var modal3 = document.getElementById('modal3');
+// const modal3 = document.getElementById('modal3');
+
 var button4 = document.getElementById('button-4');
-var modal4 = document.getElementById('modal4');
+// const modal4 = document.getElementById('modal4');
+
 console.log(button);
 console.log(modal);
 button.addEventListener('click', function () {
@@ -57,19 +60,19 @@ modal.addEventListener('click', function (e) {
 button2.addEventListener('click', function () {
   return modal.classList.add('modal--show');
 });
-modal2.addEventListener('click', function (e) {
+modal.addEventListener('click', function (e) {
   if (e.target.classList.contains('modal')) modal.classList.remove('modal--show');
 });
 button3.addEventListener('click', function () {
   return modal.classList.add('modal--show');
 });
-modal3.addEventListener('click', function (e) {
+modal.addEventListener('click', function (e) {
   if (e.target.classList.contains('modal')) modal.classList.remove('modal--show');
 });
 button4.addEventListener('click', function () {
   return modal.classList.add('modal--show');
 });
-modal4.addEventListener('click', function (e) {
+modal.addEventListener('click', function (e) {
   if (e.target.classList.contains('modal')) modal.classList.remove('modal--show');
 });
 var slides = document.querySelectorAll('.slider__slide');

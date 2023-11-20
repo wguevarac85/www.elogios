@@ -1,0 +1,20 @@
+.historia__titulo{
+    grid-column: 1/13;
+    grid-row: 1;
+    text-align: center;
+    font-size: 1.3rem;
+    font-family: $big-title;
+    color: $dark-color;
+    margin-bottom: 2.5px;
+    border-bottom: 2px solid $dark-color-3;
+}
+.historia__parrafo{
+    grid-column: 1/13;
+    grid-row: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    font-family: $regular-title;
+    color: rgba(54, 54, 54, 0.69);
+    }

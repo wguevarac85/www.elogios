@@ -24,7 +24,7 @@
 			<img src="./assets/logo/Logo.svg" alt="Logo" class="img_compania">		
 </div>
 		<p class="parrafo_compania compania__parrafo--4">
-		<strong>Elogios Salud laboral:</strong> (somos) una <strong>IPS</strong> lider en la prestación de servicios en el area de seguridad y salud en el trabajo, nuestro labor (fin) se enfoca en el area de <strong>Medicina preventiva, general y del trabajo.</strong>  
+		<strong>Elogios Salud laboral:</strong>(somos) una <strong>IPS</strong> lider en la prestación de servicios en el area de seguridad y salud en el trabajo, nuestro labor (fin) se enfoca en el area de <strong>Medicina preventiva, general y del trabajo.</strong>  
 		<!-- en donde ofrecemos a nuestros clientes el asesoramiento, desarrollo y ejecucion de diversos  examenes medico laborales, examenes complementarios (paraclinicos), consulta medica general, psicologica y otros, garantizando conceptos medicos consistentes que fundamentan la toma de decisiones para mejorar la calidad de vida de las personas en general, y la construccion de programas de seguridad y salud en el trabajo en el marco de las acciones del sistema de seguridad y salud en el trabajo (SG-SST).   Por otra parte, ofrecemos asesorias en el area de higiene y seguridad industrial que complementen su SGSST. (RESUMIR) -->
 		</p>
 		<div class="img_compania-l compania__laboral">

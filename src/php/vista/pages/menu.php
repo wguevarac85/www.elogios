@@ -16,7 +16,7 @@
                         <a href="#compania" class="menu__link menu__link--inside">Nuestra Compañia</a>
                     </li>
                     <li class="menu__inside">
-                        <a href="#" class="menu__link menu__link--inside">Nuestra Historia</a>
+                        <a href="#historia" class="menu__link menu__link--inside">Nuestra Historia</a>
                     </li>
                     <li class="menu__inside">
                         <a href="#" class="menu__link menu__link--inside">Valores</a>

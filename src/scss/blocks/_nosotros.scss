@@ -3,6 +3,7 @@
 	grid-template-columns: repeat(12, 1fr);
 	grid-template-rows: 78px  auto;
     font-family: $regular-title;
+    color: rgba(54, 54, 54, 0.69);
     }
 .img_compania{
     width: 170px;
@@ -62,7 +63,7 @@ hr {
 .compania__parrafo--1{
     grid-column: 3/13;
     grid-row: 2;   
-    color: rgba(54, 54, 54, 0.69);
+    
 }
 .programas__gen{
     grid-column: 1/13;
@@ -74,8 +75,7 @@ hr {
 }
 .compania__parrafo--2{
     grid-column: 1/11;
-    grid-row: 4;   
-    color: rgba(54, 54, 54, 0.69);
+    grid-row: 4; 
 }
 .compania__parrafo--3{
     grid-column: 3/13;

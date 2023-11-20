@@ -21,6 +21,9 @@
         <section class="nosotros__container">
         <?php include "../pages/nosotros.php"?>
         </section>
+        <section class="historia__container">
+        <?php include "../pages/historia.php"?>
+        </section>
     </main>
     <!-- <footer class="footer__container">3<?php include "../includes/copyright.php"?></footer> -->
 
