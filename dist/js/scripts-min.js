@@ -38,6 +38,40 @@ if (window.innerWidth <= 800) {
 menu.addEventListener('click', function () {
   list.classList.toggle('menu__links--show');
 });
+var button = document.getElementById('button-1');
+var modal = document.getElementById('modal');
+var button2 = document.getElementById('button-2');
+var modal2 = document.getElementById('modal2');
+var button3 = document.getElementById('button-3');
+var modal3 = document.getElementById('modal3');
+var button4 = document.getElementById('button-4');
+var modal4 = document.getElementById('modal4');
+console.log(button);
+console.log(modal);
+button.addEventListener('click', function () {
+  return modal.classList.add('modal--show');
+});
+modal.addEventListener('click', function (e) {
+  if (e.target.classList.contains('modal')) modal.classList.remove('modal--show');
+});
+button2.addEventListener('click', function () {
+  return modal.classList.add('modal--show');
+});
+modal2.addEventListener('click', function (e) {
+  if (e.target.classList.contains('modal')) modal.classList.remove('modal--show');
+});
+button3.addEventListener('click', function () {
+  return modal.classList.add('modal--show');
+});
+modal3.addEventListener('click', function (e) {
+  if (e.target.classList.contains('modal')) modal.classList.remove('modal--show');
+});
+button4.addEventListener('click', function () {
+  return modal.classList.add('modal--show');
+});
+modal4.addEventListener('click', function (e) {
+  if (e.target.classList.contains('modal')) modal.classList.remove('modal--show');
+});
 var slides = document.querySelectorAll('.slider__slide');
 var btnPrev = document.getElementById('btn-prev');
 var btnNex = document.getElementById('btn-next');
